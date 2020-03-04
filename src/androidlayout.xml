@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_layout1"
+                  android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent">
+        <TextView android:text="Does the pain occur with exertion?" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen__exertion" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        </TextView>
+        <RadioGroup android:layout_width="wrap_content" android:orientation="horizontal" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen__exertionRadioGroup1" android:layout_height="wrap_content">
+            <RadioButton android:text="yes"  android:layout_height="wrap_content" android:checked="false" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen__exertion_yes" android:layout_width="wrap_content">
+            </RadioButton>
+            <RadioButton android:text="no"  android:layout_height="wrap_content" android:checked="true" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen__exertion_no" android:layout_width="wrap_content">
+            </RadioButton>
+        </RadioGroup>
+        <TextView android:text="Does the pain radiate to the neck, jaw, and/or arms?" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_radiate_neck__jaw__arms" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        </TextView>
+        <RadioGroup android:layout_width="wrap_content" android:orientation="horizontal" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_radiate_neck__jaw__armsRadioGroup2" android:layout_height="wrap_content">
+            <RadioButton android:text="yes"  android:layout_height="wrap_content" android:checked="false" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_radiate_neck__jaw__arms_yes" android:layout_width="wrap_content">
+            </RadioButton>
+            <RadioButton android:text="no"  android:layout_height="wrap_content" android:checked="true" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_radiate_neck__jaw__arms_no" android:layout_width="wrap_content">
+            </RadioButton>
+        </RadioGroup>
+        <TextView android:text="Does the pain have a squeezing or tightness quality?" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_squeezing_tightness" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        </TextView>
+        <RadioGroup android:layout_width="wrap_content" android:orientation="horizontal" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_squeezing_tightnessRadioGroup3" android:layout_height="wrap_content">
+            <RadioButton android:text="yes"  android:layout_height="wrap_content" android:checked="false" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_squeezing_tightness_yes" android:layout_width="wrap_content">
+            </RadioButton>
+            <RadioButton android:text="no"  android:layout_height="wrap_content" android:checked="true" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_squeezing_tightness_no" android:layout_width="wrap_content">
+            </RadioButton>
+        </RadioGroup>
+        <TextView android:text="Can the pain be reproduced by movement of the arms or torso or by pushing on a certain area of the chest?" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_reproduced_movement_arms_torso_pushing_area_chest" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        </TextView>
+        <RadioGroup android:layout_width="wrap_content" android:orientation="horizontal" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_reproduced_movement_arms_torso_pushing_area_chestRadioGroup4" android:layout_height="wrap_content">
+            <RadioButton android:text="yes"  android:layout_height="wrap_content" android:checked="false" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_reproduced_movement_arms_torso_pushing_area_chest_yes" android:layout_width="wrap_content">
+            </RadioButton>
+            <RadioButton android:text="no"  android:layout_height="wrap_content" android:checked="true" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_reproduced_movement_arms_torso_pushing_area_chest_no" android:layout_width="wrap_content">
+            </RadioButton>
+        </RadioGroup>
+        <TextView android:text="Is the pain made worse by deep breathing?" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_worse_deep_breathing" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        </TextView>
+        <RadioGroup android:layout_width="wrap_content" android:orientation="horizontal" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_worse_deep_breathingRadioGroup5" android:layout_height="wrap_content">
+            <RadioButton android:text="yes"  android:layout_height="wrap_content" android:checked="false" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_worse_deep_breathing_yes" android:layout_width="wrap_content">
+            </RadioButton>
+            <RadioButton android:text="no"  android:layout_height="wrap_content" android:checked="true" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_worse_deep_breathing_no" android:layout_width="wrap_content">
+            </RadioButton>
+        </RadioGroup>
+        <TextView android:text="Is the pain brought on by eating or lying down? Is it relieved with antacids?" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_brought_eating_lying_down__relieved_antacids" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        </TextView>
+        <RadioGroup android:layout_width="wrap_content" android:orientation="horizontal" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_brought_eating_lying_down__relieved_antacidsRadioGroup6" android:layout_height="wrap_content">
+            <RadioButton android:text="yes"  android:layout_height="wrap_content" android:checked="false" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_brought_eating_lying_down__relieved_antacids_yes" android:layout_width="wrap_content">
+            </RadioButton>
+            <RadioButton android:text="no"  android:layout_height="wrap_content" android:checked="true" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_brought_eating_lying_down__relieved_antacids_no" android:layout_width="wrap_content">
+            </RadioButton>
+        </RadioGroup>
+        <TextView android:text="Is it accompanied by shortness of breath, sweating, a feeling of clamminess, nausea or indigestion?" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_shortness_breath__sweating__clamminess__nausea_indigestion" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        </TextView>
+        <RadioGroup android:layout_width="wrap_content" android:orientation="horizontal" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_shortness_breath__sweating__clamminess__nausea_indigestionRadioGroup7" android:layout_height="wrap_content">
+            <RadioButton android:text="yes"  android:layout_height="wrap_content" android:checked="false" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_shortness_breath__sweating__clamminess__nausea_indigestion_yes" android:layout_width="wrap_content">
+            </RadioButton>
+            <RadioButton android:text="no"  android:layout_height="wrap_content" android:checked="true" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_shortness_breath__sweating__clamminess__nausea_indigestion_no" android:layout_width="wrap_content">
+            </RadioButton>
+        </RadioGroup>
+        <TextView android:text="If the pain is anginal in nature, does it last more than 15 to 30 minutes?" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_If_anginal__last_15_30_minutes" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        </TextView>
+        <RadioGroup android:layout_width="wrap_content" android:orientation="horizontal" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_If_anginal__last_15_30_minutesRadioGroup8" android:layout_height="wrap_content">
+            <RadioButton android:text="yes"  android:layout_height="wrap_content" android:checked="false" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_If_anginal__last_15_30_minutes_yes" android:layout_width="wrap_content">
+            </RadioButton>
+            <RadioButton android:text="no"  android:layout_height="wrap_content" android:checked="true" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_If_anginal__last_15_30_minutes_no" android:layout_width="wrap_content">
+            </RadioButton>
+        </RadioGroup>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="horizontal"
+                      android:layout_weight="1"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content">
+            <Button android:text="saveButton" android:layout_weight="0.5" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_saveButton" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+            <Button android:text="cancelButton" android:layout_weight="0.5" android:id="@+id/com_test_DummyProject_chief_complaint_chest_painscreen_cancelButton" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
